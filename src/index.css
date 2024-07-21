@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.App .sidebar {
+  margin: 10px;
+}
+.parent-list {
+  list-style: none;
+  padding: 0;
+}
+.list-of-friends {
+  list-style: none;
+  text-align: left;
+  margin: 10px;
+  padding: 8px;
+  background-color: #ddd;
+  align-items: center;
+  border-radius: 7px;
+}
+.friend-data {
+  display: flex;
+}
+.selected {
+  background-color: #e1c8b3;
+}
+.list-of-friends h3 {
+  margin: auto;
+}
+.list-of-friends img {
+  border-radius: 50%;
+}
+
+.list-of-friends .red {
+  color: #e30000;
+}
+.list-of-friends .green {
+  color: rgb(0, 161, 108);
+}
+
+.button {
+  border: 0;
+  padding: 7px 20px;
+  border-radius: 8px;
+  background-color: #ffa82b;
+  font-weight: 600;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.friend-owe {
+  margin: auto;
+  text-align: center;
+}
+.friend-owe {
+  margin: 0;
+}
+form {
+  background-color: #e1c8b3;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+form input {
+  padding: 5px;
+  border: 0;
+  margin: 10px;
+  border-radius: 6px;
+  width: 50%;
+}
+
+.add-friend {
+  text-align: end;
+}
+.split-form-bill {
+  text-align: left;
+  padding: 0 0 30px 100px;
+  margin: auto;
+}
+
+@media (min-width: 425px) and (max-width: 992px) {
+  .split-form-bill {
+    padding: 0 0 30px 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 425px) {
+  .split-form-bill {
+    padding: 0 0 30px 20px;
+  }
+  .split-form-bill h2 {
+    font-size: 13px;
+  }
+  .split-form-bill div label {
+    font-size: 12px;
+  }
+  .list-of-friends h3 {
+    font-size: 13px;
+  }
+  .list-of-friends button {
+    font-size: 13px;
+    padding: 5px;
+  }
+  .friend-owe {
+    font-size: 13px;
+  }
+}
+@media (min-width: 0px) and (max-width: 300px) {
+  .split-form-bill {
+    padding: 0 0 30px 20px;
+  }
+}
