@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Count-Bill/static/css/main.7577557d.css",
+    "main.js": "/Count-Bill/static/js/main.4e6c399e.js",
+    "index.html": "/Count-Bill/index.html",
+    "main.7577557d.css.map": "/Count-Bill/static/css/main.7577557d.css.map",
+    "main.4e6c399e.js.map": "/Count-Bill/static/js/main.4e6c399e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7577557d.css",
+    "static/js/main.4e6c399e.js"
+  ]
+}
